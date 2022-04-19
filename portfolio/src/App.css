@@ -18,24 +18,48 @@
   overflow: hidden;
 }
 
-.nav-item {
-  padding-right: 20px;
+.header-menu {
+  display:flex;
+  background-color: var(--xik);
+  height: 75px;
 }
 
-.name {
+nav {
+  background-color: var(--xik);
+}
+
+.navbar-brand {
   color: var(--camel);
   text-shadow: var(--gold);
-  
+  font-size: calc(15px + 2vmin);
   
 }
 
-a {
-  color: var(--gold)
+.navbar-brand:hover {
+  color: var(--camel);
+  text-shadow: var(--gold);
 }
 
-a:hover {
-  color: var(--copper);
-  text-shadow: 1px 1px var(--gold);
+.navbar-toggler {
+  background-color: var(--camel);
+  border-color: var(--copper)
+}
+
+.navbar-toggler-icon {
+  background-color: var(--gold);
+  border: 1px 1px var(--xik);
+  background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28161,110,60, 1%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e');
+
+}
+
+.nav-item a {
+  color: var(--gold);
+  font-size: calc(7px + 2vmin);
+}
+
+.nav-item a:hover {
+  color: var(--camel);
+
 }
 
 a:link { text-decoration: none; }

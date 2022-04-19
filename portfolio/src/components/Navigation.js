@@ -1,32 +1,30 @@
 import React from 'react';
 
 export default function Nav() {
-    return(
-        <nav className='header-menu'>
-            <section
-                style={{
-                    display: 'flex',
-                    justifyContent: 'flex-end',
-                    flexDirection: 'row',
-                    fontSize: 'calc(10px + 2vmin)',
-                    backgroundColor: 'var(--xik)',
-                    height: '75px',
-                    
-                }}>
-                <span className='name'>Jason Snyder</span>
-                <div className='nav-item'>
-                    <a href="#">About Me</a>
+    return (
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand">Jason Snyder</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Contact Me</a>
+                        </li>
+                    </ul>
                 </div>
-                <div className='nav-item'>
-                    <a href="#">Portfolio</a>
-                </div>
-                <div className='nav-item'>
-                    <a href="#">Contact Me</a>
-                </div>
-                <div className='nav-item'>
-                    <a href="#">Resume</a>
-                </div>
-            </section>
+            </div>
         </nav>
     );
 }
