@@ -5,7 +5,10 @@
   --copper: #a57141;
   --camel: #b89764;
   --gold: #dcbf8a;
+}
 
+body {
+  background: linear-gradient(var(--xik), var(--copper), var(--gold), var(--copper), var(--xik));
 }
 
 .skull {
@@ -60,6 +63,19 @@ nav {
 .nav-item a:hover {
   color: var(--camel);
 
+}
+
+.footer {
+  background-color: var(--xik);
+  height: 75px;
+}
+
+.footer nav ul {
+  list-style-type: none;
+}
+
+.footer nav ul li {
+  padding-right: 3%;
 }
 
 a:link { text-decoration: none; }
