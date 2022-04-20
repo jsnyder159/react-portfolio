@@ -12,19 +12,17 @@ export default function Nav() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
                         <Link to='/'>
-                        <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">About Me</a>
-                        </li>
+                        <li className="nav-item nav-link active">About Me</li>
                         </Link>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Resume</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Contact Me</a>
-                        </li>
+                        <Link to='/portfolio'>
+                        <li className="nav-item nav-link">Portfolio</li>
+                        </Link>
+                        <Link to='/resume'>
+                        <li className="nav-item nav-link">Resume</li>
+                        </Link>
+                        <Link to='/contact'>
+                        <li className="nav-item nav-link">Contact Me</li>
+                        </Link>
                     </ul>
                 </div>
             </div>

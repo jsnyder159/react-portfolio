@@ -1,0 +1,9 @@
+.resume {
+    background: linear-gradient(var(--xik), 2%, var(--copper), var(--gold), var(--copper), var(--xik));
+
+}
+
+.card {
+    justify-content: center;
+    align-content: center;
+}

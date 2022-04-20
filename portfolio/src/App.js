@@ -5,6 +5,9 @@ import Nav from './components/Navigation'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import About from './components/pages/about/About'
+import Portfolio from './components/pages/portfolio/Portfolio'
+import Resume from './components/pages/resume/Resume'
+import Contact from './components/pages/contact/Contact'
 
 function App() {
   return (
@@ -14,9 +17,9 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<About/>} />
-          <Route />
-          <Route />
-          <Route />
+          <Route path="/portfolio" element={<Portfolio/>}/>
+          <Route path="/resume" element={<Resume/>}/>
+          <Route path='/contact' element={<Contact/>}/>
         </Routes>
         <Footer />
       </div>

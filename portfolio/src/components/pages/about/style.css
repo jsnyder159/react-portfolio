@@ -1,4 +1,5 @@
 .about {
+    height: 500px;
     display: flex;
     background: linear-gradient(var(--xik), 2%, var(--copper), var(--gold), var(--copper), var(--xik));
 

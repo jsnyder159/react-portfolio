@@ -56,12 +56,12 @@ nav {
 
 }
 
-.nav-item a {
+.nav-item {
   color: var(--gold);
   font-size: calc(7px + 2vmin);
 }
 
-.nav-item a:hover {
+.nav-item:hover {
   color: var(--camel);
 
 }
