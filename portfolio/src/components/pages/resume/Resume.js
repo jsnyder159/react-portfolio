@@ -3,14 +3,15 @@ import './style.css'
 import resume from '../../../documents/resume.pdf'
 
 
-const skills = {
-    frontEnd: ['HTML', 'CSS', 'JavaScript', 'React', "jQuery", 'Bootstrap'],
-    backEnd: ['Node', 'Express', 'MySQl', 'Sequelize', 'MongoDB', 'Mongoose', 'GraphQL', 'Python'],
-    tech: ['Windows','MongoDB Compass', 'Insomnia', 'MySQL Workbench', 'Visual Studio Code', 'PyCharm', 'Heroku', 'Git' ]
-}
 
 
 function Resume() {
+    const skills = {
+        frontEnd: ['HTML', 'CSS', 'JavaScript', 'React', "jQuery", 'Bootstrap'],
+        backEnd: ['Node', 'Express', 'MySQl', 'Sequelize', 'MongoDB', 'Mongoose', 'GraphQL', 'Python'],
+        tech: ['Windows', 'MongoDB Compass', 'Insomnia', 'MySQL Workbench', 'Visual Studio Code', 'PyCharm', 'Heroku', 'Git']
+    }
+
     return (
         <div className='resume'>
             <h1 className='w-100'>Proficiencies</h1>
