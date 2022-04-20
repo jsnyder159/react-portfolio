@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Nav() {
     return (
@@ -10,9 +11,11 @@ export default function Nav() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
+                        <Link to='/'>
                         <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="#">About Me</a>
                         </li>
+                        </Link>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Portfolio</a>
                         </li>

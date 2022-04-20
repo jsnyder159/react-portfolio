@@ -1,0 +1,29 @@
+.about {
+    display: flex;
+    background: linear-gradient(var(--xik), 2%, var(--copper), var(--gold), var(--copper), var(--xik));
+
+}
+
+.gears {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 8%;
+
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top:8%;
+
+}
