@@ -9,13 +9,13 @@ function Footer() {
             <nav>
                 <ul className="d-flex flex-row justify-content-center align-content-center">
                     <li>
-                        <a href='https://github.com/jsnyder159' target="_blank"><img src={github} alt="github logo"></img></a>
+                        <a href='https://github.com/jsnyder159' target="_blank" rel="noreferrer"><img src={github} alt="github logo"></img></a>
                     </li>
                     <li>
-                        <a href='https://www.linkedin.com/in/jason-snyder-94869622b/' target="_blank"><img src={linkedIn} alt="linkedin logo"></img></a>
+                        <a href='https://www.linkedin.com/in/jason-snyder-94869622b/' target="_blank" rel="noreferrer"><img src={linkedIn} alt="linkedin logo"></img></a>
                     </li>
                     <li>
-                        <a href='https://www.hackerrank.com/jason_snyder159' target="_blank"><img src={hackerRank} alt="hacker rank logo" width="33px" height="33px"></img></a>
+                        <a href='https://www.hackerrank.com/jason_snyder159' target="_blank" rel="noreferrer"><img src={hackerRank} alt="hacker rank logo" width="33px" height="33px"></img></a>
                     </li>
                 </ul>
             </nav>

@@ -67,6 +67,7 @@ nav {
 }
 
 .footer {
+  padding-top: 1%;
   background-color: var(--xik);
   height: 75px;
 }

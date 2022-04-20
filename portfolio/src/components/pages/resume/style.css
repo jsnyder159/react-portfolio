@@ -1,9 +1,48 @@
 .resume {
+    height: 600px;
     background: linear-gradient(var(--xik), 2%, var(--copper), var(--gold), var(--copper), var(--xik));
 
+}
+
+h1 {
+    text-align: center;
+    padding: 1% 0 1%;
+    color: var(--gold);
+    text-shadow: 1px 1px var(--blkCoffe);
+}
+
+h2 {
+    color: var(--gold);
+    text-shadow: 1px 1px var(--blkCoffe);
 }
 
 .card {
     justify-content: center;
     align-content: center;
+    border: 2px solid var(--xik);
+    background: linear-gradient(var(--blkCoffe), var(--coffee), var(--copper), var(--coffee), var(--blkCoffe));
+}
+
+ul { 
+    text-align: center;
+    list-style-type: none;
+}
+
+li {
+    color:var(--gold);
+    text-shadow: 1px 1px var(--blkCoffe);
+}
+
+p {
+    text-align: center;
+    padding-top: 3%;
+    color: var(--gold);
+    text-shadow: 1px 1px var(--blkCoffe);
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    font-size:x-large;
+    padding-bottom: 5%;
 }
