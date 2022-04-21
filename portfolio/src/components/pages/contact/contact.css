@@ -14,8 +14,8 @@
 
 .enterName {
     position:absolute;
-    top: 105px;
-    right: 750px;
+    top: 75px;
+    width: 100%;
 }
 
 .nameInput {
@@ -24,8 +24,9 @@
 
 .enterEmail {
     position:absolute;
-    bottom: -90px;
-    right: 750px;
+    bottom: -160px;
+    right: 20px;
+    width: 100%
 }
 
 .emailInput {
@@ -34,8 +35,8 @@
 
 .enterMessage {
     position: absolute;
-    bottom: -240px;
-    right: 750px;
+    bottom: -330px;
+    width: 100%;
 }
 
 .messageBox {
@@ -44,8 +45,9 @@
 
 .enterSubmit {
     position:absolute;
-    bottom: -300px;
-    right: 925px;
+    bottom: -375px;
+    right: -30px;
+    width:100%;
 }
 
 label {
@@ -59,4 +61,61 @@ label {
     color: var(--blkCoffe);
     background-color: var(--gold);
     border: 1px solid var(--xik)
+}
+
+@media screen and (max-width: 635px){
+    .nameInput {
+        width: 300px;
+        
+    }
+
+    .emailInput {
+        width: 300px;
+    }
+
+    .messageBox {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 491px) {
+    .nameInput {
+        width: 225px;
+    }
+
+    .emailInput {
+        width: 225px;
+    }
+
+    .messageBox {
+        width: 225px;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .nameInput {
+        width: 210px;
+    }
+
+    .emailInput {
+        width: 210px;
+    }
+
+    .messageBox {
+        width: 210px;
+    }
+}
+
+@media screen and (max-width: 387px) {
+    .nameInput {
+        width: 190px;
+    }
+
+    .emailInput {
+        width: 190px;
+    }
+
+    .messageBox {
+        width: 190px;
+    }
 }
