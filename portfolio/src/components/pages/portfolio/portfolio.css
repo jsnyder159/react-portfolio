@@ -22,7 +22,8 @@
 }
 
 .description {
-    padding-top: 0px;
+    padding: 0;
+    color: var(--blkCoffe)
 }
 
 .carousel-control-prev {
@@ -54,6 +55,11 @@
     top: 200px;
     right: 650px;
 }
+
+h5{
+    color: var(--blkCoffe)
+}
+
 
 .description:link { text-decoration: none; }
 .description:visited { text-decoration: none; }
