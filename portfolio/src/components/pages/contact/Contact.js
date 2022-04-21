@@ -1,5 +1,5 @@
 import React from 'react';
-import { useForm } from '@formspree/react';
+import { ValidationError, useForm } from '@formspree/react';
 import './contact.css'
 
 
@@ -15,15 +15,18 @@ function ContactForm() {
                     <div className=" contact-item d-flex justify-content-center align-content-center m-2">
                         <label htmlFor="full-name">Full Name:</label>
                         <input type="text" name="name" id="full-name" placeholder="First and Last" required=""></input>
+                        <ValidationError field="full-name" errors={state.errors} />
                     </div>
                     <div className="contact-item d-flex justify-content-center align-content-center m-2">
                         <label htmlFor="email-address">Email Address:</label>
                         <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""></input>
+                        <ValidationError field="email-address" errors={state.errors} />
                     </div>
                     <div className="contact-item d-flex justify-content-center align-content-center m-2">
                         <label htmlFor="message">Message:</label>
                         <textarea rows="5" name="message" id="message" placeholder="Place your custom message here." required=""></textarea>
                         <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"></input>
+                        <ValidationError field="message" errors={state.errors} />
                     </div>
                     <div className="d-flex justify-content-center align-content-center">
                         <input type="submit" value="Submit"></input>
