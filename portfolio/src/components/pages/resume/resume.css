@@ -41,8 +41,10 @@ p {
 }
 
 a {
-    display: flex;
     justify-content: center;
+    text-align: center;
     font-size:x-large;
     margin-bottom: 5%;
+    color: var(--gold);
+
 }

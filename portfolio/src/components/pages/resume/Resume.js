@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css'
+import './resume.css'
 import resume from '../../../documents/resume.pdf'
 
 
@@ -43,7 +43,7 @@ function Resume() {
 
             </div>
             <p>Below is my 7 year resume.  Please feel free to click the link and download the PDF.</p>
-            <a href={resume} target='_blank' rel="noreferrer">My Resume</a>
+            <a className="d-flex" href={resume} target='_blank' rel="noreferrer">My Resume</a>
         </div>
     );
 }
