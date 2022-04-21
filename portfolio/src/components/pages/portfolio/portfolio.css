@@ -1,12 +1,11 @@
 .carousel {
     height: 600px;
-    background: linear-gradient(var(--xik), 2%, var(--copper), var(--gold), var(--copper), var(--xik));
+    background: linear-gradient(var(--xik), 2%, var(--coffee), var(--copper), var(--camel), var(--gold), var(--camel), var(--copper), var(--coffee), var(--xik));
 }
 
-.carousel-inner .item img{
+.mainImg{
     width: 640px;
     height: 360px;
-
 }
 
 .carousel-inner img {
@@ -41,19 +40,19 @@
     width: 5%;
     position: relative;
     top: -470px;
-    right: -2020px;
+    right: -1820px;
 }
 
 .leftIcon {
     position: absolute;
-    top: 300px;
-    left: 750px;
+    top: 200px;
+    left: 650px;
 }
 
 .rightIcon {
     position: absolute;
-    top: 300px;
-    right: 750px;
+    top: 200px;
+    right: 650px;
 }
 
 .description:link { text-decoration: none; }
