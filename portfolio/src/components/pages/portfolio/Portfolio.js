@@ -1,5 +1,5 @@
 import React from 'react';
-import './portfolio.css'
+import './portfolio.css';
 import github from './images/github2.png'
 import live from './images/white-globe.png'
 import court from './images/court.png'
@@ -11,6 +11,7 @@ import textedi from './images/text-editor.png'
 
 function Portfolio() {
     return (
+
         <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -22,13 +23,15 @@ function Portfolio() {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={court} className="d-block w-25 mainImg" alt="basketball with NBA logo on court floor"></img>
-                    <div className="carousel-caption d-none d-md-block mb-4">
-                        <h5>NBA Team Stat Tracker</h5>
-                        <p className="description">Look up your favorite NBA team and check the team and players stats.</p>
+                    <div>
+                        <img src={court} className="d-block w-25 mainImg" alt="basketball with NBA logo on court floor"></img>
+                        <div className="carousel-caption d-none d-md-block mb-4">
+                            <h5>NBA Team Stat Tracker</h5>
+                            <p className="description">Look up your favorite NBA team and check the team and players stats.</p>
+                        </div>
+                        <a className="leftIcon" href="https://github.com/danchanyoungkim/NBA-Team-Stats" target="_blank" rel="noreferrer"><img src={github} alt="White Github Logo"></img></a>
+                        <a className='rightIcon' href="https://danchanyoungkim.github.io/NBA-Team-Stats/" target="_blank" rel="noreferrer"><img src={live} alt="White globe"></img></a>
                     </div>
-                    <a className="leftIcon" href="https://github.com/danchanyoungkim/NBA-Team-Stats" target="_blank" rel="noreferrer"><img src={github} alt="White Github Logo"></img></a>
-                    <a className='rightIcon' href="https://danchanyoungkim.github.io/NBA-Team-Stats/" target="_blank" rel="noreferrer"><img src={live} alt="White globe"></img></a>
                 </div>
                 <div className="carousel-item">
                     <img src={first} className="d-block w-25 mainImg" alt="bearded mans headshot beside a paragraph with a jack-o-lantern above both"></img>
@@ -43,17 +46,16 @@ function Portfolio() {
                     <img src={rpg} className="d-block w-25 mainImg" alt="a spell book with arcane symbols and fire"></img>
                     <div className="carousel-caption d-none d-md-block mb-4">
                         <h5>RPG Char Generator</h5>
-                        <p className="description">Create, Save, and Comment on other RPG Chars..</p>
+                        <p className="description">Create, Save, and Comment on other RPG Chars.</p>
                     </div>
                     <a className="leftIcon" href="https://github.com/BPpearsall/RPG-Character-Database" target="_blank" rel="noreferrer"><img src={github} alt="White Github Logo"></img></a>
                     <a className='rightIcon' href="https://bp-rpg-character-database.herokuapp.com/" target="_blank" rel="noreferrer"><img src={live} alt="White globe"></img></a>
                 </div>
-
                 <div className="carousel-item">
                     <img src={tech} className="d-block w-25 mainImg" alt="Log in page for a blog"></img>
                     <div className="carousel-caption d-none d-md-block mb-4">
                         <h5>Tech blog</h5>
-                        <p className="description">Built a blog you can log into, write comments, and respond to comments to keep and share your ideas.</p>
+                        <p className="description">I made a blog you can log into, write comments, and respond to comments to keep and share your ideas.</p>
                     </div>
                     <a className="leftIcon" href="https://github.com/jsnyder159/Tech-Blog" target="_blank" rel="noreferrer"><img src={github} alt="White Github Logo"></img></a>
                     <a className='rightIcon' href="https://tech-blog-jw.herokuapp.com/login" target="_blank" rel="noreferrer"><img src={live} alt="White globe"></img></a>
@@ -62,13 +64,13 @@ function Portfolio() {
                     <img src={weather} className="d-block w-25 mainImg" alt="Five day forcast and current weather with search bar."></img>
                     <div className="carousel-caption d-none d-md-block mb-4">
                         <h5>Weather dashboard</h5>
-                        <p className="description">Build a weather forcaster that will give me a 5 day forcast, save my searched cities, and gives me the current weather conditions there.</p>
+                        <p className="description">I made a weather forcaster that will give me a 5 day forcast, save my searched cities, and gives me the current weather conditions there.</p>
                     </div>
                     <a className="leftIcon" href="https://github.com/jsnyder159/Weather-Dashboard" target="_blank" rel="noreferrer"><img src={github} alt="White Github Logo"></img></a>
                     <a className='rightIcon' href="https://jsnyder159.github.io/Weather-Dashboard/" target="_blank" rel="noreferrer"><img src={live} alt="White globe"></img></a>
                 </div>
                 <div className="carousel-item">
-                    <img src={textedi} className="d-block w-25 mainImg" alt="..."></img>
+                    <img src={textedi} className="d-block w-25 mainImg" alt="text screen showing JATE"></img>
                     <div className="carousel-caption d-none d-md-block mb-4">
                         <h5>Text Editor</h5>
                         <p className="description">Working with webpacks for the first time. Write and save your ideas even if you lose your connection you won't lose your ideas!</p>

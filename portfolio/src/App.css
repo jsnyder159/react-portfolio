@@ -36,7 +36,8 @@ nav {
   color: var(--camel);
   text-shadow: var(--gold);
   font-size: calc(15px + 2vmin);
-  
+  padding-bottom: 20px;
+  padding-left: 30px;
 }
 
 .navbar-brand:hover {
@@ -59,6 +60,7 @@ nav {
 .nav-item {
   color: var(--gold);
   font-size: calc(7px + 2vmin);
+  margin-top: 10px;
 }
 
 .nav-item:hover {
