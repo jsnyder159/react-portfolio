@@ -25,7 +25,7 @@ function Portfolio() {
                     <img src={court} className="d-block w-25 mainImg" alt="basketball with NBA logo on court floor"></img>
                     <div className="carousel-caption d-none d-md-block mb-4">
                         <h5>NBA Team Stat Tracker</h5>
-                        <p className="description">Look up your favorite NBA team and check the team and players stats. First time working with multiple API's</p>
+                        <p className="description">Look up your favorite NBA team and check the team and players stats.</p>
                     </div>
                     <a className="leftIcon" href="https://github.com/danchanyoungkim/NBA-Team-Stats" target="_blank" rel="noreferrer"><img src={github} alt="White Github Logo"></img></a>
                     <a className='rightIcon' href="https://danchanyoungkim.github.io/NBA-Team-Stats/" target="_blank" rel="noreferrer"><img src={live} alt="White globe"></img></a>
@@ -43,7 +43,7 @@ function Portfolio() {
                     <img src={rpg} className="d-block w-25 mainImg" alt="a spell book with arcane symbols and fire"></img>
                     <div className="carousel-caption d-none d-md-block mb-4">
                         <h5>RPG Char Generator</h5>
-                        <p className="description">Create, Save, Comment on other RPG Chars.  My first time building a backend from scratch.</p>
+                        <p className="description">Create, Save, and Comment on other RPG Chars..</p>
                     </div>
                     <a className="leftIcon" href="https://github.com/BPpearsall/RPG-Character-Database" target="_blank" rel="noreferrer"><img src={github} alt="White Github Logo"></img></a>
                     <a className='rightIcon' href="https://bp-rpg-character-database.herokuapp.com/" target="_blank" rel="noreferrer"><img src={live} alt="White globe"></img></a>
@@ -62,7 +62,7 @@ function Portfolio() {
                     <img src={weather} className="d-block w-25 mainImg" alt="Five day forcast and current weather with search bar."></img>
                     <div className="carousel-caption d-none d-md-block mb-4">
                         <h5>Weather dashboard</h5>
-                        <p className="description">Build a weather forcaster that will give me a 5 day forcast,save my searched cities, and give me current weather conditions.</p>
+                        <p className="description">Build a weather forcaster that will give me a 5 day forcast, save my searched cities, and gives me the current weather conditions there.</p>
                     </div>
                     <a className="leftIcon" href="https://github.com/jsnyder159/Weather-Dashboard" target="_blank" rel="noreferrer"><img src={github} alt="White Github Logo"></img></a>
                     <a className='rightIcon' href="https://jsnyder159.github.io/Weather-Dashboard/" target="_blank" rel="noreferrer"><img src={live} alt="White globe"></img></a>
