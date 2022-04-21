@@ -1,6 +1,6 @@
 import React from 'react';
 import gears from '../../../images/profile-gear.png'
-import './style.css'
+import './about.css'
 
 function About() {
     return (

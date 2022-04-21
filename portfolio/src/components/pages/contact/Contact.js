@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm } from '@formspree/react';
-import './style.css'
+import './contact.css'
 
 
 function ContactForm() {
