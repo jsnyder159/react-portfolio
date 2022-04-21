@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.8a24ac7f.css",
-    "main.js": "/my-app/static/js/main.b5320bdc.js",
-    "static/js/787.1ed0c42c.chunk.js": "/my-app/static/js/787.1ed0c42c.chunk.js",
-    "static/media/rpg-char.PNG": "/my-app/static/media/rpg-char.477c788b1894b02821ed.PNG",
-    "static/media/first-portfolio.png": "/my-app/static/media/first-portfolio.7641eff0694954778953.png",
-    "static/media/court.png": "/my-app/static/media/court.9e3507590d28efd24a46.png",
-    "static/media/profile-gear.png": "/my-app/static/media/profile-gear.12ec89ccbfca282bc146.png",
-    "static/media/skullbg.jpg": "/my-app/static/media/skullbg.8556570bbe7b019d3307.jpg",
-    "static/media/resume.pdf": "/my-app/static/media/resume.a390ddd556e7dfe91281.pdf",
-    "static/media/weather-dashboard.png": "/my-app/static/media/weather-dashboard.6ba6f89a5ec3f4627dd9.png",
-    "static/media/tech-blog.png": "/my-app/static/media/tech-blog.ab7cad88e09183a04b6a.png",
-    "static/media/white-globe.png": "/my-app/static/media/white-globe.543f73259890f674888b.png",
-    "index.html": "/my-app/index.html",
-    "main.8a24ac7f.css.map": "/my-app/static/css/main.8a24ac7f.css.map",
-    "main.b5320bdc.js.map": "/my-app/static/js/main.b5320bdc.js.map",
-    "787.1ed0c42c.chunk.js.map": "/my-app/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/react-portfolio/static/css/main.1bb0c3d2.css",
+    "main.js": "/react-portfolio/static/js/main.3d237341.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/rpg-char.PNG": "/react-portfolio/static/media/rpg-char.477c788b1894b02821ed.PNG",
+    "static/media/first-portfolio.png": "/react-portfolio/static/media/first-portfolio.7641eff0694954778953.png",
+    "static/media/court.png": "/react-portfolio/static/media/court.9e3507590d28efd24a46.png",
+    "static/media/profile-gear.png": "/react-portfolio/static/media/profile-gear.12ec89ccbfca282bc146.png",
+    "static/media/skullbg.jpg": "/react-portfolio/static/media/skullbg.8556570bbe7b019d3307.jpg",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.a390ddd556e7dfe91281.pdf",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.6ba6f89a5ec3f4627dd9.png",
+    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.ab7cad88e09183a04b6a.png",
+    "static/media/white-globe.png": "/react-portfolio/static/media/white-globe.543f73259890f674888b.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.1bb0c3d2.css.map": "/react-portfolio/static/css/main.1bb0c3d2.css.map",
+    "main.3d237341.js.map": "/react-portfolio/static/js/main.3d237341.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a24ac7f.css",
-    "static/js/main.b5320bdc.js"
+    "static/css/main.1bb0c3d2.css",
+    "static/js/main.3d237341.js"
   ]
 }
