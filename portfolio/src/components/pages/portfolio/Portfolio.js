@@ -1,6 +1,8 @@
 import React from 'react';
 import './portfolio.css'
 import skulls from "./images/skullbg.jpg"
+import github from './images/github2.png'
+import live from './images/white-globe.png'
 
 function Portfolio() {
     return (
@@ -9,28 +11,65 @@ function Portfolio() {
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img src={skulls} className="d-block w-25" alt="..."></img>
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-none d-md-block mb-4">
                         <h5>First slide label</h5>
                         <p className="description">Some representative placeholder content for the first slide.</p>
                     </div>
+                    <a className="leftIcon" href="#" target="_blank" rel="noreferrer"><img src={github} alt="White Github Logo"></img></a>
+                    <a className='rightIcon' href="#" target="_blank" rel="noreferrer"><img src={live} alt="White globe"></img></a>
                 </div>
                 <div className="carousel-item">
                     <img src={skulls} className="d-block w-25" alt="..."></img>
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-none d-md-block mb-4">
                         <h5>Second slide label</h5>
                         <p className="description">Some representative placeholder content for the second slide.</p>
                     </div>
+                    <a className="leftIcon" href="#" target="_blank" rel="noreferrer"><img src={github} alt="White Github Logo"></img></a>
+                    <a className='rightIcon' href="#" target="_blank" rel="noreferrer"><img src={live} alt="White globe"></img></a>
                 </div>
                 <div className="carousel-item">
                     <img src={skulls} className="d-block w-25" alt="..."></img>
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-none d-md-block mb-4">
                         <h5>Third slide label</h5>
                         <p className="description">Some representative placeholder content for the third slide.</p>
                     </div>
+                    <a className="leftIcon" href="#" target="_blank" rel="noreferrer"><img src={github} alt="White Github Logo"></img></a>
+                    <a className='rightIcon' href="#" target="_blank" rel="noreferrer"><img src={live} alt="White globe"></img></a>
+                </div>
+
+                <div className="carousel-item">
+                    <img src={skulls} className="d-block w-25" alt="..."></img>
+                    <div className="carousel-caption d-none d-md-block mb-4">
+                        <h5>Second slide label</h5>
+                        <p className="description">Some representative placeholder content for the 4slide.</p>
+                    </div>
+                    <a className="leftIcon" href="#" target="_blank" rel="noreferrer"><img src={github} alt="White Github Logo"></img></a>
+                    <a className='rightIcon' href="#" target="_blank" rel="noreferrer"><img src={live} alt="White globe"></img></a>
+                </div>
+                <div className="carousel-item">
+                    <img src={skulls} className="d-block w-25" alt="..."></img>
+                    <div className="carousel-caption d-none d-md-block mb-4">
+                        <h5>Second slide label</h5>
+                        <p className="description">Some representative placeholder content for the 5slide.</p>
+                    </div>
+                    <a className="leftIcon" href="#" target="_blank" rel="noreferrer"><img src={github} alt="White Github Logo"></img></a>
+                    <a className='rightIcon' href="#" target="_blank" rel="noreferrer"><img src={live} alt="White globe"></img></a>
+                </div>
+                <div className="carousel-item">
+                    <img src={skulls} className="d-block w-25" alt="..."></img>
+                    <div className="carousel-caption d-none d-md-block mb-4">
+                        <h5>Second slide label</h5>
+                        <p className="description">Some representative placeholder content for the 6 slide.</p>
+                    </div>
+                    <a className="leftIcon" href="#" target="_blank" rel="noreferrer"><img src={github} alt="White Github Logo"></img></a>
+                    <a className='rightIcon' href="#" target="_blank" rel="noreferrer"><img src={live} alt="White globe"></img></a>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
