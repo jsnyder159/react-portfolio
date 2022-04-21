@@ -48,3 +48,35 @@ a {
     color: var(--gold);
 
 }
+
+@media screen and (max-width: 992px) {
+
+    .resume {
+        height: 1100px;
+    }
+
+    .card {
+        margin-bottom: 10px;
+        width: 30%;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px){
+    .card {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 692px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 482px) {
+    .card{
+        width:60%;
+    }
+}
