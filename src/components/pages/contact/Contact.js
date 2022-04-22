@@ -1,13 +1,11 @@
 import React from 'react';
 import { useForm } from '@formspree/react';
 import './contact.css'
-import {hiddenKey} from './key'
-
-console.log({hiddenKey})
+import {core} from './core'
 
 
 function ContactForm() {
-    const [state, handleSubmit] = useForm(hiddenKey.code);
+    const [state, handleSubmit] = useForm(core.string);
     if (state.succeeded) {
         return <p className="success">Thanks for contacting me!</p>;
     }
