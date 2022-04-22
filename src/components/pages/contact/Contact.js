@@ -1,12 +1,15 @@
 import React from 'react';
 import { useForm } from '@formspree/react';
 import './contact.css'
+import {hiddenKey} from './key'
+
+console.log({hiddenKey})
 
 
 function ContactForm() {
-    const [state, handleSubmit] = useForm("mjvladld");
+    const [state, handleSubmit] = useForm(hiddenKey.code);
     if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
+        return <p className="success">Thanks for contacting me!</p>;
     }
     return (
         <form onSubmit={handleSubmit} className="contactForm " id="fs-frm" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
