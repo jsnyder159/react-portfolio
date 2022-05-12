@@ -7,7 +7,6 @@
   ## Table of Contents
 
   - [Tools](#tools)
-  - [License](#license)
   - [Screenshots](#screenshots)
   - [Questions](#questions)
   
@@ -15,12 +14,7 @@
   ## Tools
   
  React, Bootstrap, react-router
-  
-  
-  ## License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-  
   
   ## Screenshots
   [Live Portfolio](https://jsnyder159.github.io/react-portfolio/)
