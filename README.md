@@ -2,7 +2,7 @@
 
 
   ## Description
-  I used Bootstrap and React to make an updated personal portfolio.  I plan on using this portfolio for something to send possible employeers to showcase my work and abilities.
+  I used Bootstrap and React to make an updated personal portfolio.  I plan on using this portfolio for something to send possible employers to showcase my work and abilities.
   
   ## Table of Contents
 
