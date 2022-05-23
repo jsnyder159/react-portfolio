@@ -25,7 +25,14 @@
 
 .description {
     padding: 0;
+    text-shadow: none;
     color: var(--blkCoffe)
+}
+
+.tech-used {
+    color: var(--blkCoffe);
+    text-shadow: none;
+    padding: 0;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
