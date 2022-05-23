@@ -1,0 +1,89 @@
+:root {
+  --xik: #080109;
+  --blkCoffe: #2D2021;
+  --coffee: #6e5038;
+  --copper: #a57141;
+  --camel: #b89764;
+  --gold: #dcbf8a;
+}
+
+body {
+  padding-bottom:0px;
+  margin-bottom:0
+}
+
+.skull {
+  background-image: url('./images/skullbg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 275px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.header-menu {
+  display:flex;
+  background-color: var(--xik);
+  height: 75px;
+}
+
+nav {
+  background-color: var(--xik);
+}
+
+.navbar-brand {
+  color: var(--camel);
+  text-shadow: var(--gold);
+  font-size: calc(15px + 2vmin);
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.navbar-brand:hover {
+  color: var(--camel);
+  text-shadow: var(--gold);
+}
+
+.navbar-toggler {
+  background-color: var(--camel);
+  border-color: var(--copper)
+}
+
+.navbar-toggler-icon {
+  background-color: var(--gold);
+  border: 1px 1px var(--xik);
+  background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28161,110,60, 1%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e');
+
+}
+
+.nav-item {
+  color: var(--gold);
+  font-size: calc(7px + 2vmin);
+  margin-top: 10px;
+}
+
+.nav-item:hover {
+  color: var(--camel);
+
+}
+
+.footer {
+  padding-top: 1%;
+  background-color: var(--xik);
+  height: 75px;
+}
+
+.footer nav ul {
+  list-style-type: none;
+}
+
+.footer nav ul li {
+  padding-right: 3%;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+

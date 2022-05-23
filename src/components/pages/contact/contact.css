@@ -1,0 +1,133 @@
+.contactForm {
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(var(--xik), 2%, var(--copper), var(--gold), var(--copper), var(--xik));
+    
+}
+
+.success {
+    height: 600px;
+    background: linear-gradient(var(--xik), 2%, var(--copper), var(--gold), var(--copper), var(--xik));
+    margin: 0;
+}
+
+.formField {
+    padding-top: 20px;
+    position: relative;
+
+}
+
+.email {
+    text-align: center;
+    background-color: var(--xik);
+    margin-bottom: 0;
+}
+
+.enterName {
+    position:absolute;
+    top: 75px;
+    width: 100%;
+}
+
+.nameInput {
+    width: 400px;
+}
+
+.enterEmail {
+    position:absolute;
+    bottom: -160px;
+    right: 20px;
+    width: 100%
+}
+
+.emailInput {
+    width: 400px;
+}
+
+.enterMessage {
+    position: absolute;
+    bottom: -330px;
+    width: 100%;
+}
+
+.messageBox {
+    width:400px;
+}
+
+.enterSubmit {
+    position:absolute;
+    bottom: -375px;
+    right: -30px;
+    width:100%;
+}
+
+label {
+    color: var(--blkCoffe);
+    text-shadow: 1px 1px var(--blkCoffe);
+    font-size:larger;
+    padding-right: 10px;
+}
+
+.submitBtn {
+    color: var(--blkCoffe);
+    background-color: var(--gold);
+    border: 1px solid var(--xik)
+}
+
+@media screen and (max-width: 635px){
+    .nameInput {
+        width: 300px;
+        
+    }
+
+    .emailInput {
+        width: 300px;
+    }
+
+    .messageBox {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 491px) {
+    .nameInput {
+        width: 225px;
+    }
+
+    .emailInput {
+        width: 225px;
+    }
+
+    .messageBox {
+        width: 225px;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .nameInput {
+        width: 210px;
+    }
+
+    .emailInput {
+        width: 210px;
+    }
+
+    .messageBox {
+        width: 210px;
+    }
+}
+
+@media screen and (max-width: 387px) {
+    .nameInput {
+        width: 190px;
+    }
+
+    .emailInput {
+        width: 190px;
+    }
+
+    .messageBox {
+        width: 190px;
+    }
+}

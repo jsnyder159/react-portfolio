@@ -1,0 +1,64 @@
+.carousel {
+    height: 600px;
+    width: auto;
+    background: linear-gradient(var(--xik), 2%, var(--coffee), var(--copper), var(--camel), var(--gold), var(--camel), var(--copper), var(--coffee), var(--xik));
+}
+
+.mainImg{
+    max-width: 640px;
+    max-height: 360px;
+
+    margin:auto;
+    position: relative;
+    object-fit:fill;
+    border: 1px solid var(--gold);
+}
+
+
+.carousel-caption {
+    position: relative;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+        
+}
+
+.description {
+    padding: 0;
+    color: var(--blkCoffe)
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    align-self: center;
+    background-color: var(--blkCoffe);
+    margin-bottom: 210px;
+
+}
+
+.bigList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.leftIcon {
+    padding-right: 25px;
+}
+
+
+h5{
+    color: var(--blkCoffe)
+}
+
+
+.description:link { text-decoration: none; }
+.description:visited { text-decoration: none; }
+.description:hover { text-decoration: none; }
+.description:active { text-decoration: none; }
+
+@media screen and (max-width: 838px) {
+    .mainImg {
+        width: 70%;
+    }
+}
