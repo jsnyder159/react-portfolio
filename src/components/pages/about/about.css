@@ -6,14 +6,15 @@
 }
 
 .gears {
-    max-height: 500px;
-    max-width: 500px;
+    max-height: 450px;
+    max-width: 450px;
+    padding-left: 50px;
 }
 
 .title {
     justify-content: center;
     align-content: center;
-    margin-top: 12%;
+    padding-top: 12%;
     color: var(--coffee);
     text-shadow: 1px 1px var(--blkCoffe);
 
@@ -22,7 +23,7 @@
 .para {
     justify-content: center;
     align-content: center;
-    margin-top: 8%;
+    padding-top: 11%;
     color: var(--blkCoffe);
     text-shadow: 0px 0px
     
