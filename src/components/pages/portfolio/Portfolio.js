@@ -5,9 +5,10 @@ import live from './images/white-globe.png'
 import court from './images/court.png'
 import first from './images/first-portfolio.png'
 import rpg from './images/rpg-char.PNG'
-import tech from './images/tech-blog.png'
-import weather from './images/weather-dashboard.png'
+import tech from './images/tech-blog.PNG'
+import weather from './images/weather-dashboard.PNG'
 import textedi from './images/text-editor.png'
+import charity from './images/charity.PNG'
 
 function Portfolio() {
     return (
@@ -20,6 +21,7 @@ function Portfolio() {
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
             </div>
             <div className="carousel-inner d-flex flex-sm-wrap">
                 <div className="carousel-item active">
@@ -31,7 +33,7 @@ function Portfolio() {
                         <img src={court} className="d-block mainImg" alt="basketball with NBA logo on court floor"></img>
                         <div className="carousel-caption d-block d-sm-block mb-4 d-flex">
                             <h5>NBA Team Stat Tracker</h5>
-                            <p className="description">Look up your favorite NBA teams stats.</p>
+                            <p className="description">Look up your favorite NBA teams stats.</p> <p className='tech-used'>Bulma Framework, CSS, HTML, Javascript, Sportsdata.io API, Ticketmaster API </p>
                         </div>
                     </div>
                 </div>
@@ -43,7 +45,7 @@ function Portfolio() {
                     <img src={first} className="d-block mainImg" alt="bearded mans headshot beside a paragraph with a jack-o-lantern above both"></img>
                     <div className="carousel-caption d-block d-sm-block mb-4">
                         <h5>My First Portfolio</h5>
-                        <p className="description">My First attempt at making a personal portfolio.</p>
+                        <p className="description">My First attempt at making a personal portfolio.</p> <p className='tech-used'>CSS, HTML, Javascript</p>
                     </div>
                 </div>
                 <div className="carousel-item">
@@ -54,7 +56,7 @@ function Portfolio() {
                     <img src={rpg} className="d-block mainImg" alt="a spell book with arcane symbols and fire"></img>
                     <div className="carousel-caption d-block d-sm-block mb-4">
                         <h5>RPG Char Generator</h5>
-                        <p className="description">Create, Save, and Comment on other RPG Chars.</p>
+                        <p className="description">Create, Save, and Comment on other RPG Chars.</p> <p className='tech-used'>HTML, CSS, Javascript, Handlebars, Node, Express, MySQL, Sequelize </p>
                     </div>
                 </div>
                 <div className="carousel-item">
@@ -65,7 +67,7 @@ function Portfolio() {
                     <img src={tech} className="d-block mainImg" alt="Log in page for a blog"></img>
                     <div className="carousel-caption d-block d-sm-block mb-4">
                         <h5>Tech blog</h5>
-                        <p className="description">A blog to keep and share your ideas.</p>
+                        <p className="description">A blog to keep and share your ideas.</p> <p className='tech-used'>HTML, CSS, Javascript, Sequelize, Express, MySQL2, Handlebars</p>
                     </div>
                 </div>
                 <div className="carousel-item">
@@ -76,7 +78,7 @@ function Portfolio() {
                     <img src={weather} className="d-block mainImg" alt="Five day forcast and current weather with search bar."></img>
                     <div className="carousel-caption d-block d-sm-block mb-4">
                         <h5>Weather dashboard</h5>
-                        <p className="description">A weather app that will give you a 5 day forcast.</p>
+                        <p className="description">A weather app that will give you a 5 day forcast.</p> <p className='tech-used'>HTML, CSS, Javascript, Bootstrap, Openweather API</p>
                     </div>
                 </div>
                 <div className="carousel-item">
@@ -87,7 +89,18 @@ function Portfolio() {
                     <img src={textedi} className="d-block mainImg" alt="text screen showing JATE"></img>
                     <div className="carousel-caption d-block d-sm-block mb-4">
                         <h5>Text Editor</h5>
-                        <p className="description"> Write and save your ideas even offline.</p>
+                        <p className="description"> Write and save your ideas even offline.</p> <p className='tech-used'>Express, Babel, Webpack </p>
+                    </div>
+                </div>
+                <div className="carousel-item">
+                    <ul className="bigList d-flex flex-row justify-content-center align-content-center">
+                    <li><a className="leftIcon" href="https://github.com/jsnyder159/Raffles-of-Love" target="_blank" rel="noreferrer"><img src={github} alt="White Github Logo"></img></a></li>
+                    <li><a className='rightIcon' href="https://charity-raffle.herokuapp.com/" target="_blank" rel="noreferrer"><img src={live} alt="White globe"></img></a></li>
+                    </ul>
+                    <img src={charity} className="d-block mainImg" alt="jar full of coins labeled charity"></img>
+                    <div className="carousel-caption d-block d-sm-block mb-4">
+                        <h5>Text Editor</h5>
+                        <p className="description"> A place for charities to raffle off donated items. Not associated with any charities or raffling off any goods.</p> <p className='tech-used'>Express, React, React Bootstrap, React Router, MongoDB, GraphQL, Mongoose, Stripe, Apollo, JSON Web Tokens, bcrypt </p>
                     </div>
                 </div>
             </div>
