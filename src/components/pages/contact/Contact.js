@@ -1,11 +1,10 @@
 import React from 'react';
 import { useForm } from '@formspree/react';
 import './contact.css'
-import { core } from './core'
 
 
 function ContactForm() {
-    const [state, handleSubmit] = useForm(core.string);
+    const [state, handleSubmit] = useForm(process.env.REACT_APP_FORMSPREE_API_KEY);
     if (state.succeeded) {
         return <p className="success">Thanks for contacting me!</p>;
     }
