@@ -99,7 +99,7 @@ function Portfolio() {
                     </ul>
                     <img src={charity} className="d-block mainImg" alt="jar full of coins labeled charity"></img>
                     <div className="carousel-caption d-block d-sm-block mb-4">
-                        <h5>Text Editor</h5>
+                        <h5>Raffles of Love</h5>
                         <p className="description"> A place for charities to raffle off donated items. Not associated with any charities or raffling off any goods.</p> <p className='tech-used'>Express, React, React Bootstrap, React Router, MongoDB, GraphQL, Mongoose, Stripe, Apollo, JSON Web Tokens, bcrypt </p>
                     </div>
                 </div>
