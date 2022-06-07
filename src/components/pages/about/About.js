@@ -1,18 +1,18 @@
 import React from "react";
 import gears from "../../../images/profile-gear.png";
-import "./about.css";
+import styles from "./About.module.css";
 
 function About() {
   return (
-    <div className="about">
+    <div className={styles.about}>
       <div className="d-flex row">
         <img
-          className="gears col-4"
+          className= {`${styles.gears} col-3`}
           src={gears}
           alt="beared mans head surround by gears"
         ></img>
-        <h2 className="title col-1">About Me</h2>
-        <p className="para col-7">
+        <h2 className= {`${styles.title} col-1`}>About Me</h2>
+        <p className={`${styles.para} col-7`}>
           My names Jason and I am a full stack web developer. I spent the
           majority of the last decade working in the Import/Export industry at
           docks in NJ and PA as a Marine Superintendent. Meeting people from all

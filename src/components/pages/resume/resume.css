@@ -49,6 +49,10 @@ a {
 
 }
 
+div.row.justify-content-around {
+    margin: 0%
+}
+
 @media screen and (max-width: 992px) {
 
     .resume {
