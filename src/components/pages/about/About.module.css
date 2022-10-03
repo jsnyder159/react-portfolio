@@ -1,14 +1,12 @@
 .about {
-    height:600px;
+    height:100%;
     display: flex;
     background: linear-gradient(var(--xik), 2%, var(--copper), var(--gold), var(--copper), var(--xik));
 
 }
 
 .gears {
-    max-height: 450px;
-    max-width: 450px;
-    padding-left: 100px;
+    align-content: center;
 }
 
 .title {
@@ -21,107 +19,20 @@
 }
 
 .para {
-    justify-content: center;
-    align-content: center;
-    padding-top: 11%;
+    padding-bottom: 15%;
     color: var(--blkCoffe);
     text-shadow: 0px 0px
     
 }
 
-@media screen and (max-width: 1200px ){
-    .gears {
-        height: auto;
-        max-width: 100%;
-    }
-
-    .about {
-        flex-direction: column;
-    }
-
-}
-
-@media screen and (max-width:996px){
-
-    .gears {
-        position:absolute;
-        height: 250px;
-        max-width: 100%;
-        top: 400px;
-    }
-
-    .title {
-        position: absolute;
-        top: 380px;
-        left: 80px;
-        margin-left: 40%;
-        height: 5%;
-        color: var(--xik);
-    }
-
+@media screen and (max-width: 756px ){
     .para {
-        position: absolute;
-        top: 600px;
-        left: 80px;
-        margin-left: 15%;
         padding-bottom: 30%;
-        height: 10%;
-    }
-
-    .about {
-        height: 858px;
     }
 }
 
-@media screen and (max-width: 770px) {
-    .gears {
-        height: 250px;
-        max-width: 100%;
-    }
-
-
-    .title {
-        top: 360px;
-        left: 60px;
-    }
-
+@media screen and (max-width: 456px){
     .para {
-        top: 600px;
-        color: var(--gold);
-        text-shadow: 2px 2px var(--xik);
+        padding-bottom: 40%;
     }
-}
-
-
-@media screen and (max-width: 592px) {
-    .about{
-        height: 900px;
-    }
-
-}
-
-@media screen and (max-width: 504px) {
-    .about{
-        height: 1000px;
-    }
-
-    .title{
-        left: 10px;
-    }
-
-    .para{
-        left: 40px;
-    }
-
-}
-
-@media screen and (max-width: 426px) {
-    .about{
-        height: 1100px;
-    }
-
-    .para{
-        top: 90px;
-    }
-
 }
