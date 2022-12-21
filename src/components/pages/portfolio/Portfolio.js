@@ -4,7 +4,6 @@ import github from './images/github2.png'
 import live from './images/white-globe.png'
 import court from './images/court.png'
 import first from './images/first-portfolio.png'
-import rpg from './images/rpg-char.PNG'
 import expense from './images/expense-tracker.png'
 import weather from './images/weather-dashboard.png'
 import textedi from './images/text-editor.png'
@@ -18,10 +17,9 @@ function Portfolio() {
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                {/* <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button> */}
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
             </div>
             <div className="carousel-inner d-flex flex-sm-wrap">
                 <div className="carousel-item active">
@@ -48,17 +46,6 @@ function Portfolio() {
                         <p className="description">My First attempt at making a personal portfolio.</p> <p className='tech-used'>CSS, HTML, Javascript</p>
                     </div>
                 </div>
-                {/* <div className="carousel-item">
-                    <ul className="bigList d-flex flex-row justify-content-center align-content-center">
-                    <li><a className="leftIcon" href="https://github.com/BPpearsall/RPG-Character-Database" target="_blank" rel="noreferrer"><img src={github} alt="White Github Logo"></img></a></li>
-                    <li><a className='rightIcon' href="https://bp-rpg-character-database.herokuapp.com/" target="_blank" rel="noreferrer"><img src={live} alt="White globe"></img></a></li>
-                    </ul>
-                    <img src={rpg} className="d-block mainImg" alt="a spell book with arcane symbols and fire"></img>
-                    <div className="carousel-caption d-block d-sm-block mb-4">
-                        <h5>RPG Char Generator</h5>
-                        <p className="description">Create, Save, and Comment on other RPG Chars.</p> <p className='tech-used'>HTML, CSS, Javascript, Handlebars, Node, Express, MySQL, Sequelize </p>
-                    </div>
-                </div> */}
                 <div className="carousel-item">
                     <ul className="bigList d-flex flex-row justify-content-center align-content-center">
                     <li><a className="leftIcon" href="https://github.com/jsnyder159/expense-tracker" target="_blank" rel="noreferrer"><img src={github} alt="White Github Logo"></img></a></li>
